@@ -1,6 +1,9 @@
+import unittest
+
 from ..util.foo import run_foo
 
 
-def test_some_unit():
-    run_foo()
-    print("Unit test")
+class TestSomeUnit(unittest.TestCase):
+    def test_some_unit(self):
+        run_foo()
+        print("Unit test")
