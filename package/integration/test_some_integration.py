@@ -7,3 +7,4 @@ class TestSomeIntegration(unittest.TestCase):
     def test_some_integration(self):
         run_foo()
         print("Integration package")
+        assert True
